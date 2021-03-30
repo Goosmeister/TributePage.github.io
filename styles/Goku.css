@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+body {
+  background: url(/images/dragon-ball-super-blue-goku-portrait-uhd-4k-wallpaper.jpg) fixed center;
+   background-repeat: no-repeat;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   letter-spacing: .03em;
+   background-size: cover;
+   margin: 0;
+   padding: 0;
+   align-self: flex-start;
+   width: 100%;
+ }
+
+ .image {
+   height: 600px;
+   max-width: 20vw;
+   align-self: center;
+   margin: 0;
+   border-color: white;
+   border-width: 2px;
+   border-style: Solid;
+   border-radius: 0.1vw;
+   box-shadow: 0 0 1vw rgb(1, 120, 255);
+ }
+
+ main {
+ background: rgba(255, 255, 255, 0.2);
+   margin: 5%;
+   box-shadow: 0px 0px 100px rgb(0, 0, 0);
+   border-radius: 0.2vw;
+ }
+
+nav{
+  height: 4vw;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  background: white;
+  box-shadow: 0 0 1vw navy;
+  position: fixed;
+}
+
+footer{
+    height: 10vw;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    padding: 1vw;
+    background: white;
+    position:static;
+    align-self: flex-end;
+    justify-self:flex-end;
+}
+
+.header-img{
+  width: 3vw;
+  float: left;
+  padding: 0;
+  margin: 0.5vw;
+}
+
+.footer-img{
+  width: 8vw;
+  float: right;
+  Justify-self: center;
+  padding: 0;
+  margin: 0.5vw;
+}
+
+ h1{
+   font-size: 5vw;
+   text-shadow: 0 0 1vw yellow;
+   color: white;
+  margin-top: 20vw;
+   background:rgba(251, 255, 1, 0.384);
+   margin: 5vw;
+   font-weight: bold; 
+   letter-spacing: .05em;
+   padding: 2vw;
+   border-radius: 0.2vw;
+   box-shadow: inset 0 0 0.5vw rgb(255, 238, 0);
+ }
+
+ h2{
+   color: black;
+   text-shadow: 0px 0px 10px rgb(253, 253, 253);
+   padding: 2vw;
+ }
+
+ h3 {
+   color: white;
+   text-shadow: 0px 0px 10px black;
+   padding: 1% 1% 1% 1%;
+ }
+
+ #tribute-info {
+   color: rgb(255, 255, 255);
+   position: relative;
+   box-shadow: inset 0px 0px 1vw rgb(248, 248, 248);
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   margin: 2%;
+   padding:5vw 20vw;
+   text-shadow: 0 0 0.1vw black;
+   background: rgba(255, 136, 0, 0.575);
+   border-radius: 0.2vw;
+ }
+
+ p {
+   font-size: 1em;
+   line-height: calc(1ex / 0.32);
+   margin: 1%;
+   text-shadow: 0px 0px 5px powderblue;
+   padding: 1%;
+ }
+
+
