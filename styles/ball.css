@@ -3,29 +3,24 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 55vw;
+  height: 100%;
   position:fixed;
   z-index: -10;
   overflow:hidden;
+
 }
 .box b {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  z-index: -10;
-  background-position: center;
+  z-index: 1;
   position: absolute;
 overflow: hidden;
-  animation: moveX 10.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-  box-shadow:  0 0 10vw rgb(250, 240, 102);
-  background: rgba(255, 217, 0, 0.5);
+  animation: moveX 15.05s linear 0s infinite alternate, moveY 5.4s linear 0s infinite alternate;
+
 }
 
 .ball{
-  transform:translate(-1.7vw, -1.7vw);
-  width: 270px;
-  height: 270px;
-  background-position: center;
+  width: 80px;
+  height: 80px;
 background: transparent;
 filter: opacity(75%);
 backdrop-filter: drop-shadow(0 0 1vw black) ;
@@ -37,6 +32,6 @@ backdrop-filter: drop-shadow(0 0 1vw black) ;
 }
 
 @keyframes moveY {
-  from { top: 0;} to { top: 40vw; }
+  from { top: 0;} to { top: 100%; }
 }
 
