@@ -1,3 +1,56 @@
 @media only screen and (min-width: 768px) {
-    
+    .navbar{
+        padding: 0.1vw;
+        
+      }
+      .header-img{
+        width: 4vw;
+        float: left;
+        padding: 0;
+        margin: 0;
+      }
+
+      h1{
+          font-size: 6.2vw;
+          padding: 2vw 20%;
+          margin-block-start: 15vw;
+          background-image: url(/images/dragon-ball-super-blue-goku-portrait-uhd-4k-wallpaper.jpg);
+          background-position: -725px -23vw;
+          filter: drop-shadow(0 0 0.5vw rgb(255, 217, 0));
+            background-size: 150%;
+      }
+      h2, h3{
+          font-size: 3vw;
+          padding: 0% 20% ;
+          margin: 2vw;
+      }
+      
+      .image {
+          height: 40vw;
+          padding: 0 20%;
+          padding-left: 23vw;
+      }
+
+      p{
+          font-size: 1vw;
+          padding: 0 20%;
+      }
+
+      .footer-img{
+        width: 10vw;
+      }
+
+      footer{
+        height: 15vw;
+    }
+
+    #tribute-link{
+        font-size: 1vw;
+      }
+
+      .header-img{
+        width: 3.5vw;
+
+      }
+
 }
