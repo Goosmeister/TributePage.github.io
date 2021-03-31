@@ -4,8 +4,16 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
+ main{
+   width: 100%;
+ }
 html{
   margin: 0;
   padding: 0;
@@ -20,9 +28,8 @@ body {
    text-align: center;
    margin: 0;
    padding: 0;
-   align-self: flex-start;
-   width: 100%;
-
+width: 100%;
+display: flex;
  }
 
  .image {
@@ -97,7 +104,7 @@ footer{
  h1{
    display: flex;
    font-size: 5vw;
-   background-image: url(/images/goku\ glow\ text.jpg);
+   background-image: url(images\gokuGlowText.jpg);
    background-position: 0px 0px;
    background-clip: text;
    background-size: cover;
