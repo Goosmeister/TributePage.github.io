@@ -4,8 +4,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 @-ms-viewport{
@@ -30,6 +28,7 @@ body {
    padding: 0;
 width: 100%;
 display: flex;
+flex-direction: column;
  }
 
  .image {
@@ -102,9 +101,10 @@ footer{
 }
 
  h1{
+   color: blue;
    display: flex;
    font-size: 5vw;
-   background-image: url(images\gokuGlowText.jpg);
+   background-image: url(../images/gokuGlowText.jpg);
    background-position: 0px 0px;
    background-clip: text;
    background-size: cover;
