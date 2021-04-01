@@ -9,16 +9,8 @@
 @-ms-viewport{
   width: device-width;
 }
- main{
-   width: 100%;
- }
-html{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
+
+
 
 body {
   background-image: linear-gradient(to top, #ff0000, #ff5000, #ff7500, #ff9400, #ffb000, #eec511, #dbd72e, #e8e54d, #7bf2f2, #79f4f8, #5ebcfb, #00a2ff);
@@ -26,14 +18,14 @@ body {
    text-align: center;
    margin: 0;
    padding: 0;
-width: 100%;
+width: auto;
 display: flex;
 flex-direction: column;
  }
 
  .image {
    align-self: center;
-   height: 150vw;
+   height: 100vw;
    margin: 0;
    padding-left: 8vw;
    background: transparent;
@@ -149,8 +141,8 @@ footer{
    margin: 3vw 0;
    padding:5vw 5vw;
    background: white;
-   flex-wrap: wrap;
    flex-direction: column;
+   align-self: center;
  }
 
  p {
