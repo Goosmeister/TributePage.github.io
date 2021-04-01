@@ -4,6 +4,11 @@
 * {
   box-sizing: border-box;
   margin: 0;
+
+}
+
+html, body, *{
+  
 }
 
 @-ms-viewport{
@@ -11,37 +16,34 @@
 }
 
 
-
 body {
-  background-image: linear-gradient(to top, #ff0000, #ff5000, #ff7500, #ff9400, #ffb000, #eec511, #dbd72e, #e8e54d, #7bf2f2, #79f4f8, #5ebcfb, #00a2ff);
+  background-image: linear-gradient(to top, #ff0000, #ff5000, #ff7500, #ff9400, #ffb000, #79f4f8, #5ebcfb, #00a2ff);
   font-family: 'Quicksand', sans-serif;
    text-align: center;
    margin: 0;
    padding: 0;
-width: auto;
-display: flex;
-flex-direction: column;
+  width: auto;
+  display: flex;
+  flex-direction: column;
  }
 
  .image {
    align-self: center;
-   height: 100vw;
+   width: 70vw;
+   height: auto;
    margin: 0;
    padding-left: 8vw;
-   background: transparent;
    margin: 0;
-   filter: drop-shadow(0 0 25vw rgb(251, 255, 0));
+   filter: drop-shadow(0 0 25vw rgb(255, 0, 0));
    transform: rotate(-12deg);
  }
 
-
-.navbar{
+.nav{
   background-color: rgb(255, 255, 255);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
-  
 }
 
 footer{
@@ -149,7 +151,7 @@ footer{
    text-justify: newspaper;
    text-align: justify;
    font-size: 4.3vw;
-    line-height: 2;
+  line-height: 2;
    margin: 2vw;
    text-shadow: 0px 0px 5px powderblue;
    padding: 2vw;

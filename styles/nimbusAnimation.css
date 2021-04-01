@@ -1,0 +1,19 @@
+.nimbusAnim{
+width: 20vw;
+position: relative;
+animation: fly  10s infinite;
+animation-delay: 3s;
+transform:translate(100vw);
+}
+
+.nimbusfly{
+    position: absolute;
+    overflow: hidden;
+    top: 40vw;
+    width: 100%;
+   
+}
+
+@keyframes fly {
+    from { transform:translate(100vw); } to { transform:translate(-200vw);  }
+  }
