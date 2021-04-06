@@ -30,16 +30,18 @@
       }
 
       p{
-          font-size: 1vw;
-          padding: 0 20%;
+          font-size: 1vw !important;
+          padding: 0 20% !important;
       }
 
       .footer-img{
         width: 10vw;
+        padding: 0;
+        margin: 0;
       }
 
       footer{
-        height: 15vw;
+        height: 20vw;
     }
 
     #tribute-link{

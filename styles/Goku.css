@@ -47,17 +47,19 @@ body {
 }
 
 footer{
-    height: 40vw;
-    width: 100%;
-    bottom: 0;
-    margin: 0;
-    padding: 1vw;
-    background: white;
-    position: static;
-    align-self: flex-end;
-    justify-self: flex-end;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  bottom: 0;
+  top: 100vw;
+  margin: 0;
+  padding: 1vw;
+  background: white;
+  height: 50vw;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 #tribute-link{
@@ -79,7 +81,7 @@ footer{
 }
 
 .footer-img{
-  width: 30vw;
+  width: 3vw;
   float: center;
   Justify-self: right;
   padding: 0;
@@ -147,7 +149,7 @@ footer{
    align-self: center;
  }
 
- p {
+.tribute-info p {
    text-justify: newspaper;
    text-align: justify;
    font-size: 4.3vw;
@@ -157,4 +159,8 @@ footer{
    padding: 2vw;
  }
 
+ a{
+   margin: 0;
+   padding: 0;
+ }
 
